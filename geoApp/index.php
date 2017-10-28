@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap/css/style.css">
   <script src="jquery/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -20,9 +20,9 @@
       <p>Find the nearest restaurants, shopping mall, hotels... with just a click</p>
     </div>
     <div class="search">
-      <form class="form-inline" role="form">
+      <form class="form-inline" role="form" method="GET" action="home/index.php" >
         <div class="form-group">
-          <input type="search" class="form-control" id="search" placeholder="Search....">
+          <input type="search" name="name" class="form-control" id="name" placeholder="Search places....">
         </div>
         <button type="submit" class="btn btn-default"><span class=""></span> Search</button>
       </form>

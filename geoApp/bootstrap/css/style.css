@@ -24,3 +24,16 @@ position:relative;}
 .search{
   margin-top: 50px;
 }
+
+.navbar, .nav li{
+	background-color: #d9d9d9;
+	border-color: #d9d9d9;
+}
+
+.black{
+	color: #000000;
+}
+
+.navbar-right form{
+	margin-top: 3%;
+}
